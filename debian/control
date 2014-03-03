@@ -11,7 +11,7 @@ Homepage: https://projects.kde.org/projects/frameworks/threadweaver
 Package: libkf5threadweaver-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5threadweaver4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5threadweaver5 (= ${binary:Version}), ${misc:Depends}
 Description: ThreadWeaver library to help multithreaded programming.in Qt
  ThreadWeaver is a helper for multithreaded programming. It uses a job-based
  interface to queue tasks and execute them in an efficient way.  You simply
@@ -23,7 +23,7 @@ Description: ThreadWeaver library to help multithreaded programming.in Qt
  .
  This package contains the development files.
 
-Package: libkf5threadweaver4
+Package: libkf5threadweaver5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -37,12 +37,12 @@ Description: ThreadWeaver library to help multithreaded programming.in Qt
  .
  This package is part of KDE Frameworks 5.
 
-Package: libkf5threadweaver4-dbg
+Package: libkf5threadweaver5-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5threadweaver4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5threadweaver5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for Threadweaver
  ThreadWeaver is a helper for multithreaded programming. It uses a job-based
  interface to queue tasks and execute them in an efficient way.  You simply
