@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5ThreadWeaver.so.4 libkf5threadweaver4 #MINVER#
+libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZGVZN12ThreadWeaver6Thread7Private6makeIdEvE4s_id@Base 4.96.0
  _ZN12ThreadWeaver10Collection12finalCleanupEv@Base 4.96.0
  _ZN12ThreadWeaver10Collection14elementStartedE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
