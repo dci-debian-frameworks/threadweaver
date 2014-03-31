@@ -1,19 +1,17 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.98.0 amd64
 libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZGVZN12ThreadWeaver6Thread7Private6makeIdEvE4s_id@Base 4.96.0
- _ZN12ThreadWeaver10Collection12finalCleanupEv@Base 4.96.0
- _ZN12ThreadWeaver10Collection14elementStartedE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
- _ZN12ThreadWeaver10Collection15dequeueElementsEb@Base 4.96.0
- _ZN12ThreadWeaver10Collection15elementFinishedE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
- _ZN12ThreadWeaver10Collection15enqueueElementsEv@Base 4.96.0
+ _ZN12ThreadWeaver10Collection1dEv@Base 4.98.0
  _ZN12ThreadWeaver10Collection22aboutToBeQueued_lockedEPNS_8QueueAPIE@Base 4.96.0
  _ZN12ThreadWeaver10Collection24aboutToBeDequeued_lockedEPNS_8QueueAPIE@Base 4.96.0
  _ZN12ThreadWeaver10Collection3runE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
  _ZN12ThreadWeaver10Collection4stopE14QSharedPointerINS_12JobInterfaceEE@Base 4.96.0
  _ZN12ThreadWeaver10Collection5jobAtEi@Base 4.96.0
  _ZN12ThreadWeaver10Collection6addJobE14QSharedPointerINS_12JobInterfaceEE@Base 4.96.0
- _ZN12ThreadWeaver10Collection7executeE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
+ _ZN12ThreadWeaver10Collection7executeERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
+ _ZN12ThreadWeaver10CollectionC1EPNS_7Private18Collection_PrivateE@Base 4.98.0
  _ZN12ThreadWeaver10CollectionC1Ev@Base 4.96.0
+ _ZN12ThreadWeaver10CollectionC2EPNS_7Private18Collection_PrivateE@Base 4.98.0
  _ZN12ThreadWeaver10CollectionC2Ev@Base 4.96.0
  _ZN12ThreadWeaver10CollectionD0Ev@Base 4.96.0
  _ZN12ThreadWeaver10CollectionD1Ev@Base 4.96.0
@@ -37,9 +35,9 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver10JobAbortedD2Ev@Base 4.96.0
  _ZN12ThreadWeaver11GlobalMutexE@Base 4.96.0
  _ZN12ThreadWeaver11IdDecorator10collectionEv@Base 4.96.0
- _ZN12ThreadWeaver11IdDecorator10defaultEndE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
+ _ZN12ThreadWeaver11IdDecorator10defaultEndERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
  _ZN12ThreadWeaver11IdDecorator11setExecutorEPNS_8ExecutorE@Base 4.96.0
- _ZN12ThreadWeaver11IdDecorator12defaultBeginE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
+ _ZN12ThreadWeaver11IdDecorator12defaultBeginERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
  _ZN12ThreadWeaver11IdDecorator12requestAbortEv@Base 4.96.0
  _ZN12ThreadWeaver11IdDecorator13setAutoDeleteEb@Base 4.96.0
  _ZN12ThreadWeaver11IdDecorator15aboutToBeQueuedEPNS_8QueueAPIE@Base 4.96.0
@@ -49,10 +47,9 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver11IdDecorator17removeQueuePolicyEPNS_11QueuePolicyE@Base 4.96.0
  _ZN12ThreadWeaver11IdDecorator22aboutToBeQueued_lockedEPNS_8QueueAPIE@Base 4.96.0
  _ZN12ThreadWeaver11IdDecorator24aboutToBeDequeued_lockedEPNS_8QueueAPIE@Base 4.96.0
- _ZN12ThreadWeaver11IdDecorator24freeQueuePolicyResourcesE14QSharedPointerINS_12JobInterfaceEE@Base 4.96.0
  _ZN12ThreadWeaver11IdDecorator3jobEv@Base 4.96.0
  _ZN12ThreadWeaver11IdDecorator3runE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
- _ZN12ThreadWeaver11IdDecorator7executeE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
+ _ZN12ThreadWeaver11IdDecorator7executeERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
  _ZN12ThreadWeaver11IdDecorator8sequenceEv@Base 4.96.0
  _ZN12ThreadWeaver11IdDecorator9setStatusENS_12JobInterface6StatusE@Base 4.96.0
  _ZN12ThreadWeaver11IdDecoratorC1EPNS_12JobInterfaceEb@Base 4.96.0
@@ -84,10 +81,10 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver16DependencyPolicyD0Ev@Base 4.96.0
  _ZN12ThreadWeaver16DependencyPolicyD1Ev@Base 4.96.0
  _ZN12ThreadWeaver16DependencyPolicyD2Ev@Base 4.96.0
- _ZN12ThreadWeaver16QObjectDecorator10defaultEndE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
+ _ZN12ThreadWeaver16QObjectDecorator10defaultEndERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
  _ZN12ThreadWeaver16QObjectDecorator11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN12ThreadWeaver16QObjectDecorator11qt_metacastEPKc@Base 4.96.0
- _ZN12ThreadWeaver16QObjectDecorator12defaultBeginE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
+ _ZN12ThreadWeaver16QObjectDecorator12defaultBeginERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
  _ZN12ThreadWeaver16QObjectDecorator16staticMetaObjectE@Base 4.96.0
  _ZN12ThreadWeaver16QObjectDecorator4doneE14QSharedPointerINS_12JobInterfaceEE@Base 4.96.0
  _ZN12ThreadWeaver16QObjectDecorator6failedE14QSharedPointerINS_12JobInterfaceEE@Base 4.96.0
@@ -109,20 +106,22 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver25ResourceRestrictionPolicyD0Ev@Base 4.96.0
  _ZN12ThreadWeaver25ResourceRestrictionPolicyD1Ev@Base 4.96.0
  _ZN12ThreadWeaver25ResourceRestrictionPolicyD2Ev@Base 4.96.0
- _ZN12ThreadWeaver3Job10defaultEndE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
+ _ZN12ThreadWeaver3Job10defaultEndERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
  _ZN12ThreadWeaver3Job11setExecutorEPNS_8ExecutorE@Base 4.96.0
- _ZN12ThreadWeaver3Job12defaultBeginE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
+ _ZN12ThreadWeaver3Job12defaultBeginERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
  _ZN12ThreadWeaver3Job15aboutToBeQueuedEPNS_8QueueAPIE@Base 4.96.0
  _ZN12ThreadWeaver3Job15blockingExecuteEv@Base 4.96.0
  _ZN12ThreadWeaver3Job17aboutToBeDequeuedEPNS_8QueueAPIE@Base 4.96.0
  _ZN12ThreadWeaver3Job17assignQueuePolicyEPNS_11QueuePolicyE@Base 4.96.0
  _ZN12ThreadWeaver3Job17removeQueuePolicyEPNS_11QueuePolicyE@Base 4.96.0
+ _ZN12ThreadWeaver3Job1dEv@Base 4.98.0
  _ZN12ThreadWeaver3Job22aboutToBeQueued_lockedEPNS_8QueueAPIE@Base 4.96.0
  _ZN12ThreadWeaver3Job24aboutToBeDequeued_lockedEPNS_8QueueAPIE@Base 4.96.0
- _ZN12ThreadWeaver3Job24freeQueuePolicyResourcesE14QSharedPointerINS_12JobInterfaceEE@Base 4.96.0
- _ZN12ThreadWeaver3Job7executeE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
+ _ZN12ThreadWeaver3Job7executeERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
  _ZN12ThreadWeaver3Job9setStatusENS_12JobInterface6StatusE@Base 4.96.0
+ _ZN12ThreadWeaver3JobC1EPNS_7Private11Job_PrivateE@Base 4.98.0
  _ZN12ThreadWeaver3JobC1Ev@Base 4.96.0
+ _ZN12ThreadWeaver3JobC2EPNS_7Private11Job_PrivateE@Base 4.98.0
  _ZN12ThreadWeaver3JobC2Ev@Base 4.96.0
  _ZN12ThreadWeaver3JobD0Ev@Base 4.96.0
  _ZN12ThreadWeaver3JobD1Ev@Base 4.96.0
@@ -159,14 +158,11 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver5StateD0Ev@Base 4.96.0
  _ZN12ThreadWeaver5StateD1Ev@Base 4.96.0
  _ZN12ThreadWeaver5StateD2Ev@Base 4.96.0
- _ZN12ThreadWeaver6Thread10jobStartedE14QSharedPointerINS_12JobInterfaceEEPS0_@Base 4.96.0
  _ZN12ThreadWeaver6Thread11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN12ThreadWeaver6Thread11qt_metacastEPKc@Base 4.96.0
  _ZN12ThreadWeaver6Thread12requestAbortEv@Base 4.96.0
  _ZN12ThreadWeaver6Thread16staticMetaObjectE@Base 4.96.0
- _ZN12ThreadWeaver6Thread2idEv@Base 4.96.0
  _ZN12ThreadWeaver6Thread3runEv@Base 4.96.0
- _ZN12ThreadWeaver6Thread7jobDoneE14QSharedPointerINS_12JobInterfaceEE@Base 4.96.0
  _ZN12ThreadWeaver6Thread7startedEPS0_@Base 4.96.0
  _ZN12ThreadWeaver6ThreadC1EPNS_6WeaverE@Base 4.96.0
  _ZN12ThreadWeaver6ThreadC2EPNS_6WeaverE@Base 4.96.0
@@ -176,14 +172,12 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver6Weaver10rescheduleEv@Base 4.96.0
  _ZN12ThreadWeaver6Weaver10setState_pENS_7StateIdE@Base 4.96.0
  _ZN12ThreadWeaver6Weaver10shutDown_pEv@Base 4.96.0
- _ZN12ThreadWeaver6Weaver10threadBusyE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
  _ZN12ThreadWeaver6Weaver11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN12ThreadWeaver6Weaver11qt_metacastEPKc@Base 4.96.0
  _ZN12ThreadWeaver6Weaver12applyForWorkEPNS_6ThreadEb@Base 4.96.0
  _ZN12ThreadWeaver6Weaver12createThreadEv@Base 4.96.0
  _ZN12ThreadWeaver6Weaver12requestAbortEv@Base 4.96.0
  _ZN12ThreadWeaver6Weaver12threadExitedEPNS_6ThreadE@Base 4.96.0
- _ZN12ThreadWeaver6Weaver13canBeExecutedE14QSharedPointerINS_12JobInterfaceEE@Base 4.96.0
  _ZN12ThreadWeaver6Weaver13threadStartedEPNS_6ThreadE@Base 4.96.0
  _ZN12ThreadWeaver6Weaver14requestAbort_pEv@Base 4.96.0
  _ZN12ThreadWeaver6Weaver15adjustInventoryEi@Base 4.96.0
@@ -192,6 +186,7 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver6Weaver16threadEnteredRunEPNS_6ThreadE@Base 4.96.0
  _ZN12ThreadWeaver6Weaver17activeThreadCountEv@Base 4.96.0
  _ZN12ThreadWeaver6Weaver19waitForAvailableJobEPNS_6ThreadE@Base 4.96.0
+ _ZN12ThreadWeaver6Weaver1dEv@Base 4.98.0
  _ZN12ThreadWeaver6Weaver20decActiveThreadCountEv@Base 4.96.0
  _ZN12ThreadWeaver6Weaver20incActiveThreadCountEv@Base 4.96.0
  _ZN12ThreadWeaver6Weaver23adjustActiveThreadCountEi@Base 4.96.0
@@ -207,7 +202,6 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver6Weaver7dequeueEv@Base 4.96.0
  _ZN12ThreadWeaver6Weaver7enqueueERK7QVectorI14QSharedPointerINS_12JobInterfaceEEE@Base 4.96.0
  _ZN12ThreadWeaver6Weaver7suspendEv@Base 4.96.0
- _ZN12ThreadWeaver6Weaver8dumpJobsEv@Base 4.96.0
  _ZN12ThreadWeaver6Weaver8finish_pEv@Base 4.96.0
  _ZN12ThreadWeaver6Weaver8resume_pEv@Base 4.96.0
  _ZN12ThreadWeaver6Weaver8setStateENS_7StateIdE@Base 4.96.0
@@ -222,8 +216,20 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver6WeaverD1Ev@Base 4.96.0
  _ZN12ThreadWeaver6WeaverD2Ev@Base 4.96.0
  _ZN12ThreadWeaver6streamEv@Base 4.96.0
- _ZN12ThreadWeaver8Sequence15elementFinishedE14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.96.0
- _ZN12ThreadWeaver8Sequence15enqueueElementsEv@Base 4.96.0
+ _ZN12ThreadWeaver7Private15DefaultExecutor3endERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
+ _ZN12ThreadWeaver7Private15DefaultExecutor5beginERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
+ _ZN12ThreadWeaver7Private15DefaultExecutor7executeERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
+ _ZN12ThreadWeaver7Private15DefaultExecutorD0Ev@Base 4.98.0
+ _ZN12ThreadWeaver7Private15DefaultExecutorD1Ev@Base 4.98.0
+ _ZN12ThreadWeaver7Private15DefaultExecutorD2Ev@Base 4.98.0
+ _ZN12ThreadWeaver8Executor10defaultEndERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
+ _ZN12ThreadWeaver8Executor12defaultBeginERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
+ _ZN12ThreadWeaver8Executor3runERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
+ _ZN12ThreadWeaver8Executor7cleanupERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
+ _ZN12ThreadWeaver8ExecutorD0Ev@Base 4.98.0
+ _ZN12ThreadWeaver8ExecutorD1Ev@Base 4.98.0
+ _ZN12ThreadWeaver8ExecutorD2Ev@Base 4.98.0
+ _ZN12ThreadWeaver8Sequence1dEv@Base 4.98.0
  _ZN12ThreadWeaver8SequenceC1Ev@Base 4.96.0
  _ZN12ThreadWeaver8SequenceC2Ev@Base 4.96.0
  _ZN12ThreadWeaver8SequenceD0Ev@Base 4.96.0
@@ -239,9 +245,10 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver9JobFailedD0Ev@Base 4.96.0
  _ZN12ThreadWeaver9JobFailedD1Ev@Base 4.96.0
  _ZN12ThreadWeaver9JobFailedD2Ev@Base 4.96.0
+ _ZNK12ThreadWeaver10Collection12elementCountEv@Base 4.98.0
  _ZNK12ThreadWeaver10Collection13jobListLengthEv@Base 4.96.0
+ _ZNK12ThreadWeaver10Collection1dEv@Base 4.98.0
  _ZNK12ThreadWeaver10Collection20jobListLength_lockedEv@Base 4.96.0
- _ZNK12ThreadWeaver10Collection4selfEv@Base 4.96.0
  _ZNK12ThreadWeaver10Dependency8dependeeEv@Base 4.96.0
  _ZNK12ThreadWeaver10Dependency9dependentEv@Base 4.96.0
  _ZNK12ThreadWeaver11IdDecorator10autoDeleteEv@Base 4.96.0
@@ -256,10 +263,12 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZNK12ThreadWeaver11IdDecorator8priorityEv@Base 4.96.0
  _ZNK12ThreadWeaver11IdDecorator8sequenceEv@Base 4.96.0
  _ZNK12ThreadWeaver16DependencyPolicy25hasUnresolvedDependenciesE14QSharedPointerINS_12JobInterfaceEE@Base 4.96.0
+ _ZNK12ThreadWeaver16DependencyPolicy7isEmptyEv@Base 4.98.0
  _ZNK12ThreadWeaver16QObjectDecorator10metaObjectEv@Base 4.96.0
  _ZNK12ThreadWeaver25ResourceRestrictionPolicy3capEv@Base 4.96.0
  _ZNK12ThreadWeaver3Job10isFinishedEv@Base 4.96.0
  _ZNK12ThreadWeaver3Job13queuePoliciesEv@Base 4.96.0
+ _ZNK12ThreadWeaver3Job1dEv@Base 4.98.0
  _ZNK12ThreadWeaver3Job5mutexEv@Base 4.96.0
  _ZNK12ThreadWeaver3Job6statusEv@Base 4.96.0
  _ZNK12ThreadWeaver3Job7successEv@Base 4.96.0
@@ -275,9 +284,11 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZNK12ThreadWeaver5State6weaverEv@Base 4.96.0
  _ZNK12ThreadWeaver5State9stateNameEv@Base 4.96.0
  _ZNK12ThreadWeaver6Thread10metaObjectEv@Base 4.96.0
+ _ZNK12ThreadWeaver6Thread2idEv@Base 4.98.0
  _ZNK12ThreadWeaver6Weaver10metaObjectEv@Base 4.96.0
  _ZNK12ThreadWeaver6Weaver11queueLengthEv@Base 4.96.0
  _ZNK12ThreadWeaver6Weaver13queueLength_pEv@Base 4.96.0
+ _ZNK12ThreadWeaver6Weaver1dEv@Base 4.98.0
  _ZNK12ThreadWeaver6Weaver22currentNumberOfThreadsEv@Base 4.96.0
  _ZNK12ThreadWeaver6Weaver22maximumNumberOfThreadsEv@Base 4.96.0
  _ZNK12ThreadWeaver6Weaver24currentNumberOfThreads_pEv@Base 4.96.0
@@ -287,6 +298,7 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZNK12ThreadWeaver6Weaver7isEmptyEv@Base 4.96.0
  _ZNK12ThreadWeaver6Weaver8isIdle_pEv@Base 4.96.0
  _ZNK12ThreadWeaver6Weaver9isEmpty_pEv@Base 4.96.0
+ _ZNK12ThreadWeaver8Sequence1dEv@Base 4.98.0
  _ZNK12ThreadWeaver9Exception7messageEv@Base 4.96.0
  _ZTIN12ThreadWeaver10CollectionE@Base 4.96.0
  _ZTIN12ThreadWeaver10JobAbortedE@Base 4.96.0
@@ -303,6 +315,8 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZTIN12ThreadWeaver5StateE@Base 4.96.0
  _ZTIN12ThreadWeaver6ThreadE@Base 4.96.0
  _ZTIN12ThreadWeaver6WeaverE@Base 4.96.0
+ _ZTIN12ThreadWeaver7Private15DefaultExecutorE@Base 4.98.0
+ _ZTIN12ThreadWeaver8ExecutorE@Base 4.98.0
  _ZTIN12ThreadWeaver8SequenceE@Base 4.96.0
  _ZTIN12ThreadWeaver9ExceptionE@Base 4.96.0
  _ZTIN12ThreadWeaver9JobFailedE@Base 4.96.0
@@ -321,6 +335,8 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZTSN12ThreadWeaver5StateE@Base 4.96.0
  _ZTSN12ThreadWeaver6ThreadE@Base 4.96.0
  _ZTSN12ThreadWeaver6WeaverE@Base 4.96.0
+ _ZTSN12ThreadWeaver7Private15DefaultExecutorE@Base 4.98.0
+ _ZTSN12ThreadWeaver8ExecutorE@Base 4.98.0
  _ZTSN12ThreadWeaver8SequenceE@Base 4.96.0
  _ZTSN12ThreadWeaver9ExceptionE@Base 4.96.0
  _ZTSN12ThreadWeaver9JobFailedE@Base 4.96.0
@@ -339,12 +355,14 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZTVN12ThreadWeaver5StateE@Base 4.96.0
  _ZTVN12ThreadWeaver6ThreadE@Base 4.96.0
  _ZTVN12ThreadWeaver6WeaverE@Base 4.96.0
+ _ZTVN12ThreadWeaver7Private15DefaultExecutorE@Base 4.98.0
+ _ZTVN12ThreadWeaver8ExecutorE@Base 4.98.0
  _ZTVN12ThreadWeaver8SequenceE@Base 4.96.0
  _ZTVN12ThreadWeaver9ExceptionE@Base 4.96.0
  _ZTVN12ThreadWeaver9JobFailedE@Base 4.96.0
  _ZZN12ThreadWeaver6Thread7Private6makeIdEvE4s_id@Base 4.96.0
- (c++)"non-virtual thunk to ThreadWeaver::QObjectDecorator::defaultBegin(QSharedPointer<ThreadWeaver::JobInterface>, ThreadWeaver::Thread*)@Base" 4.96.0
- (c++)"non-virtual thunk to ThreadWeaver::QObjectDecorator::defaultEnd(QSharedPointer<ThreadWeaver::JobInterface>, ThreadWeaver::Thread*)@Base" 4.96.0
+ (c++)"non-virtual thunk to ThreadWeaver::QObjectDecorator::defaultBegin(QSharedPointer<ThreadWeaver::JobInterface> const&, ThreadWeaver::Thread*)@Base" 4.98.0
+ (c++)"non-virtual thunk to ThreadWeaver::QObjectDecorator::defaultEnd(QSharedPointer<ThreadWeaver::JobInterface> const&, ThreadWeaver::Thread*)@Base" 4.98.0
  (c++)"non-virtual thunk to ThreadWeaver::QObjectDecorator::~QObjectDecorator()@Base" 4.96.0
  (c++)"non-virtual thunk to ThreadWeaver::Queue::currentNumberOfThreads() const@Base" 4.96.0
  (c++)"non-virtual thunk to ThreadWeaver::Queue::dequeue()@Base" 4.96.0
