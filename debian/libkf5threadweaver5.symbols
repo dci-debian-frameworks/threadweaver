@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.98.0 amd64
+# SymbolsHelper-Confirmed: 4.99.0 amd64
 libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZGVZN12ThreadWeaver6Thread7Private6makeIdEvE4s_id@Base 4.96.0
  _ZN12ThreadWeaver10Collection1dEv@Base 4.98.0
@@ -96,6 +96,8 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver16QObjectDecoratorD0Ev@Base 4.96.0
  _ZN12ThreadWeaver16QObjectDecoratorD1Ev@Base 4.96.0
  _ZN12ThreadWeaver16QObjectDecoratorD2Ev@Base 4.96.0
+ _ZN12ThreadWeaver17mutexAssertLockedEP6QMutexPKc@Base 4.99.0
+ _ZN12ThreadWeaver19mutexAssertUnlockedEP6QMutexPKc@Base 4.99.0
  _ZN12ThreadWeaver25ResourceRestrictionPolicy10destructedEPNS_12JobInterfaceE@Base 4.96.0
  _ZN12ThreadWeaver25ResourceRestrictionPolicy4freeE14QSharedPointerINS_12JobInterfaceEE@Base 4.96.0
  _ZN12ThreadWeaver25ResourceRestrictionPolicy6canRunE14QSharedPointerINS_12JobInterfaceEE@Base 4.96.0
