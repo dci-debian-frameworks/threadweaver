@@ -5,7 +5,7 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 0.0.13),
+               extra-cmake-modules (>= 0.0.14),
                pkg-kde-tools,
                qtbase5-dev
 Standards-Version: 3.9.5
@@ -14,8 +14,7 @@ Homepage: https://projects.kde.org/projects/frameworks/threadweaver
 Package: libkf5threadweaver-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5threadweaver5 (= ${binary:Version}), ${misc:Depends},
- qtbase5-dev
+Depends: libkf5threadweaver5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
 Description: ThreadWeaver library to help multithreaded programming.in Qt
  ThreadWeaver is a helper for multithreaded programming. It uses a job-based
  interface to queue tasks and execute them in an efficient way.  You simply
