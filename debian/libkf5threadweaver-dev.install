@@ -1,4 +1,4 @@
 usr/include/KF5/
 usr/lib/*/cmake/KF5ThreadWeaver/
 usr/lib/*/libKF5ThreadWeaver.so
-usr/share/qt5/mkspecs/modules/qt_ThreadWeaver.pri
+usr/lib/*/qt5/mkspecs/modules/qt_ThreadWeaver.pri
