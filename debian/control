@@ -29,7 +29,6 @@ Description: ThreadWeaver library to help multithreaded programming.in Qt
 Package: libkf5threadweaver5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: ThreadWeaver library to help multithreaded programming.in Qt
  ThreadWeaver is a helper for multithreaded programming. It uses a job-based
