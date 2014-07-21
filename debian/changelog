@@ -1,6 +1,11 @@
 threadweaver (5.0.0-0ubuntu2) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Update copyright to match licensing to source 
+
+  [ José Manuel Santamaría Lema ]
+  * Update libraries *.install paths so a soname bump doesn't go
+    unnoticed.
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 16 Jul 2014 09:22:20 -0700
 
