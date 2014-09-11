@@ -1,3 +1,9 @@
+threadweaver (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:52:52 +0000
+
 threadweaver (5.1.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
