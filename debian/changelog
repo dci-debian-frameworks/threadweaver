@@ -1,9 +1,9 @@
-threadweaver (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
+threadweaver (5.2.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
   * Use pkg-kde-tools version 3 scripts
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:52:52 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:37:23 +0200
 
 threadweaver (5.1.0-0ubuntu1) utopic; urgency=medium
 
