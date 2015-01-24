@@ -1,4 +1,4 @@
-threadweaver (5.6.0-1~) UNRELEASED; urgency=medium
+threadweaver (5.6.0-1) experimental; urgency=medium
 
   * New upstream release (5.6.0).
   * Bump build dependencies to build against the experimental versions.
@@ -8,7 +8,7 @@ threadweaver (5.6.0-1~) UNRELEASED; urgency=medium
   * Add basic autopkgtests support.
   * Update build dependencies to follow cmake.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 24 Jan 2015 19:43:58 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 24 Jan 2015 20:17:32 +0100
 
 threadweaver (5.2.0-0ubuntu1) utopic; urgency=medium
 
