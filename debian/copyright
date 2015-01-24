@@ -3,9 +3,13 @@ Upstream-Name: threadweaver
 Source: https://projects.kde.org/projects/frameworks/threadweaver
 
 Files: *
-       debian/*
-Copyright: 2004-2013 Mirko Boehm
-           2014 Jonathan Riddell <jriddell@ubuntu.com>
+Copyright: 2004-2013, Mirko Boehm
+License: LGPL-2+
+
+Files: debian/*
+Copyright: 2014, Jonathan Riddell <jriddell@ubuntu.com>
+License: LGPL-2+
+
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
