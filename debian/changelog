@@ -2,6 +2,7 @@ threadweaver (5.6.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.6.0).
   * Bump build dependencies to build against the experimental versions.
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 24 Jan 2015 19:43:58 +0100
 
