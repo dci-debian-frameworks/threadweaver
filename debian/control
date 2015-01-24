@@ -16,7 +16,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/threadweaver.git
 Package: libkf5threadweaver-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5threadweaver5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
+Depends: libkf5threadweaver5 (= ${binary:Version}),
+         qtbase5-dev,
+         ${misc:Depends}
 Description: ThreadWeaver library to help multithreaded programming.in Qt
  ThreadWeaver is a helper for multithreaded programming. It uses a job-based
  interface to queue tasks and execute them in an efficient way.  You simply

@@ -14,7 +14,7 @@ threadweaver (5.2.0-0ubuntu1) utopic; urgency=medium
 threadweaver (5.1.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
-  * Update copyright to match licensing to source 
+  * Update copyright to match licensing to source
 
   [ José Manuel Santamaría Lema ]
   * Update libraries *.install paths so a soname bump doesn't go
