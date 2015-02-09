@@ -1,3 +1,9 @@
+threadweaver (5.7.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 09 Feb 2015 10:07:40 +0100
+
 threadweaver (5.6.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
