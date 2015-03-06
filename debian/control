@@ -18,7 +18,7 @@ Package: libkf5threadweaver-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5threadweaver5 (= ${binary:Version}),
-         qtbase5-dev,
+         qtbase5-dev (>= 5.2.0),
          ${misc:Depends}
 Description: ThreadWeaver library to help multithreaded programming.in Qt
  ThreadWeaver is a helper for multithreaded programming. It uses a job-based
