@@ -1,8 +1,8 @@
-threadweaver (5.8.0-0ubuntu1) UNRELEASED; urgency=medium
+threadweaver (5.8.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 13 Mar 2015 20:57:58 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:39:57 +0100
 
 threadweaver (5.7.0-0ubuntu1) vivid; urgency=medium
 
