@@ -1,8 +1,8 @@
-threadweaver (5.9.0-0ubuntu1) UNRELEASED; urgency=medium
+threadweaver (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Apr 2015 11:11:50 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:29:50 +0200
 
 threadweaver (5.8.0-0ubuntu1) vivid; urgency=medium
 
