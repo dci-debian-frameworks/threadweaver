@@ -1,6 +1,8 @@
 threadweaver (5.12.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.12.0).
+  * Update symbols files for gcc5 compatibility. (Closes: #791739)
+    Thanks to Martin Michlmayr
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 07 Jul 2015 17:41:10 +0200
 
