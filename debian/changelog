@@ -1,6 +1,10 @@
 threadweaver (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols files; mark missing symbols for GCC 5 as optional.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:33:26 -0700
 

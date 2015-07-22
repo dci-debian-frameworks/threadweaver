@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.99.0 amd64
+# SymbolsHelper-Confirmed: 5.12.0 amd64
 libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver10Collection1dEv@Base 4.98.0
  _ZN12ThreadWeaver10Collection22aboutToBeQueued_lockedEPNS_8QueueAPIE@Base 4.96.0
@@ -29,9 +29,9 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver10DependencyC2ERK14QSharedPointerINS_12JobInterfaceEES5_@Base 4.96.0
  _ZN12ThreadWeaver10JobAbortedC1ERK7QString@Base 4.96.0
  _ZN12ThreadWeaver10JobAbortedC2ERK7QString@Base 4.96.0
- _ZN12ThreadWeaver10JobAbortedD0Ev@Base 4.96.0
- _ZN12ThreadWeaver10JobAbortedD1Ev@Base 4.96.0
- _ZN12ThreadWeaver10JobAbortedD2Ev@Base 4.96.0
+ (optional)_ZN12ThreadWeaver10JobAbortedD0Ev@Base 4.96.0
+ (optional)_ZN12ThreadWeaver10JobAbortedD1Ev@Base 4.96.0
+ (optional)_ZN12ThreadWeaver10JobAbortedD2Ev@Base 4.96.0
  _ZN12ThreadWeaver11GlobalMutexE@Base 4.96.0
  _ZN12ThreadWeaver11IdDecorator10collectionEv@Base 4.96.0
  _ZN12ThreadWeaver11IdDecorator10defaultEndERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
@@ -92,9 +92,9 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver16QObjectDecoratorC1EPNS_12JobInterfaceEbP7QObject@Base 4.96.0
  _ZN12ThreadWeaver16QObjectDecoratorC2EPNS_12JobInterfaceEP7QObject@Base 4.96.0
  _ZN12ThreadWeaver16QObjectDecoratorC2EPNS_12JobInterfaceEbP7QObject@Base 4.96.0
- _ZN12ThreadWeaver16QObjectDecoratorD0Ev@Base 4.96.0
- _ZN12ThreadWeaver16QObjectDecoratorD1Ev@Base 4.96.0
- _ZN12ThreadWeaver16QObjectDecoratorD2Ev@Base 4.96.0
+ (optional)_ZN12ThreadWeaver16QObjectDecoratorD0Ev@Base 4.96.0
+ (optional)_ZN12ThreadWeaver16QObjectDecoratorD1Ev@Base 4.96.0
+ (optional)_ZN12ThreadWeaver16QObjectDecoratorD2Ev@Base 4.96.0
  _ZN12ThreadWeaver17mutexAssertLockedEP6QMutexPKc@Base 4.99.0
  _ZN12ThreadWeaver19mutexAssertUnlockedEP6QMutexPKc@Base 4.99.0
  _ZN12ThreadWeaver25ResourceRestrictionPolicy10destructedEPNS_12JobInterfaceE@Base 4.96.0
@@ -220,9 +220,9 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver7Private15DefaultExecutor3endERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
  _ZN12ThreadWeaver7Private15DefaultExecutor5beginERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
  _ZN12ThreadWeaver7Private15DefaultExecutor7executeERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
- _ZN12ThreadWeaver7Private15DefaultExecutorD0Ev@Base 4.98.0
- _ZN12ThreadWeaver7Private15DefaultExecutorD1Ev@Base 4.98.0
- _ZN12ThreadWeaver7Private15DefaultExecutorD2Ev@Base 4.98.0
+ (optional)_ZN12ThreadWeaver7Private15DefaultExecutorD0Ev@Base 4.98.0
+ (optional)_ZN12ThreadWeaver7Private15DefaultExecutorD1Ev@Base 4.98.0
+ (optional)_ZN12ThreadWeaver7Private15DefaultExecutorD2Ev@Base 4.98.0
  _ZN12ThreadWeaver8Executor10defaultEndERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
  _ZN12ThreadWeaver8Executor12defaultBeginERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
  _ZN12ThreadWeaver8Executor3runERK14QSharedPointerINS_12JobInterfaceEEPNS_6ThreadE@Base 4.98.0
@@ -233,9 +233,9 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver8Sequence1dEv@Base 4.98.0
  _ZN12ThreadWeaver8SequenceC1Ev@Base 4.96.0
  _ZN12ThreadWeaver8SequenceC2Ev@Base 4.96.0
- _ZN12ThreadWeaver8SequenceD0Ev@Base 4.96.0
- _ZN12ThreadWeaver8SequenceD1Ev@Base 4.96.0
- _ZN12ThreadWeaver8SequenceD2Ev@Base 4.96.0
+ (optional)_ZN12ThreadWeaver8SequenceD0Ev@Base 4.96.0
+ (optional)_ZN12ThreadWeaver8SequenceD1Ev@Base 4.96.0
+ (optional)_ZN12ThreadWeaver8SequenceD2Ev@Base 4.96.0
  _ZN12ThreadWeaver9ExceptionC1ERK7QString@Base 4.96.0
  _ZN12ThreadWeaver9ExceptionC2ERK7QString@Base 4.96.0
  _ZN12ThreadWeaver9ExceptionD0Ev@Base 4.96.0
@@ -243,9 +243,9 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver9ExceptionD2Ev@Base 4.96.0
  _ZN12ThreadWeaver9JobFailedC1ERK7QString@Base 4.96.0
  _ZN12ThreadWeaver9JobFailedC2ERK7QString@Base 4.96.0
- _ZN12ThreadWeaver9JobFailedD0Ev@Base 4.96.0
- _ZN12ThreadWeaver9JobFailedD1Ev@Base 4.96.0
- _ZN12ThreadWeaver9JobFailedD2Ev@Base 4.96.0
+ (optional)_ZN12ThreadWeaver9JobFailedD0Ev@Base 4.96.0
+ (optional)_ZN12ThreadWeaver9JobFailedD1Ev@Base 4.96.0
+ (optional)_ZN12ThreadWeaver9JobFailedD2Ev@Base 4.96.0
  _ZNK12ThreadWeaver10Collection12elementCountEv@Base 4.98.0
  _ZNK12ThreadWeaver10Collection13jobListLengthEv@Base 4.96.0
  _ZNK12ThreadWeaver10Collection1dEv@Base 4.98.0
@@ -344,10 +344,10 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZTVN12ThreadWeaver10CollectionE@Base 4.96.0
  _ZTVN12ThreadWeaver10JobAbortedE@Base 4.96.0
  _ZTVN12ThreadWeaver11IdDecoratorE@Base 4.96.0
- _ZTVN12ThreadWeaver11QueuePolicyE@Base 4.96.0
- _ZTVN12ThreadWeaver12JobInterfaceE@Base 4.96.0
- _ZTVN12ThreadWeaver14QueueInterfaceE@Base 4.96.0
- _ZTVN12ThreadWeaver15WeaverInterfaceE@Base 4.96.0
+ (optional)_ZTVN12ThreadWeaver11QueuePolicyE@Base 4.96.0
+ (optional)_ZTVN12ThreadWeaver12JobInterfaceE@Base 4.96.0
+ (optional)_ZTVN12ThreadWeaver14QueueInterfaceE@Base 4.96.0
+ (optional)_ZTVN12ThreadWeaver15WeaverInterfaceE@Base 4.96.0
  _ZTVN12ThreadWeaver16DependencyPolicyE@Base 4.96.0
  _ZTVN12ThreadWeaver16QObjectDecoratorE@Base 4.96.0
  _ZTVN12ThreadWeaver25ResourceRestrictionPolicyE@Base 4.96.0
@@ -364,7 +364,7 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZZN12ThreadWeaver6Thread7Private6makeIdEvE4s_id@Base 4.96.0
  (c++)"non-virtual thunk to ThreadWeaver::QObjectDecorator::defaultBegin(QSharedPointer<ThreadWeaver::JobInterface> const&, ThreadWeaver::Thread*)@Base" 4.98.0
  (c++)"non-virtual thunk to ThreadWeaver::QObjectDecorator::defaultEnd(QSharedPointer<ThreadWeaver::JobInterface> const&, ThreadWeaver::Thread*)@Base" 4.98.0
- (c++)"non-virtual thunk to ThreadWeaver::QObjectDecorator::~QObjectDecorator()@Base" 4.96.0
+ (optional|c++)"non-virtual thunk to ThreadWeaver::QObjectDecorator::~QObjectDecorator()@Base" 4.96.0
  (c++)"non-virtual thunk to ThreadWeaver::Queue::currentNumberOfThreads() const@Base" 4.96.0
  (c++)"non-virtual thunk to ThreadWeaver::Queue::dequeue()@Base" 4.96.0
  (c++)"non-virtual thunk to ThreadWeaver::Queue::dequeue(QSharedPointer<ThreadWeaver::JobInterface> const&)@Base" 4.96.0
