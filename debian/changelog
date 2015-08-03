@@ -1,4 +1,4 @@
-threadweaver (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
+threadweaver (5.12.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -6,7 +6,7 @@ threadweaver (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
   [ José Manuel Santamaría Lema ]
   * Update symbols files; mark missing symbols for GCC 5 as optional.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:33:26 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 16:13:03 +0200
 
 threadweaver (5.11.0-1) unstable; urgency=medium
 
