@@ -1,6 +1,7 @@
 threadweaver (5.13.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.13.0).
+  * Drop XS-Testsuite field
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 13 Aug 2015 10:42:39 +0200
 
