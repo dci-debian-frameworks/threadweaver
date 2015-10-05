@@ -1,8 +1,12 @@
-threadweaver (5.14.0-0ubuntu1) UNRELEASED; urgency=medium
+threadweaver (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 29 Sep 2015 17:20:02 -0700
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Oct 2015 21:32:05 +0100
 
 threadweaver (5.14.0-0ubuntu1) wily; urgency=medium
 
