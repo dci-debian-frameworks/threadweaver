@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0+git20150922.0806 amd64 i386
+# SymbolsHelper-Confirmed: 5.14.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x
 libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver10Collection1dEv@Base 4.98.0
  _ZN12ThreadWeaver10Collection22aboutToBeQueued_lockedEPNS_8QueueAPIE@Base 4.96.0

@@ -1,3 +1,22 @@
+threadweaver (5.16.0-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Debian Merge: No remaining changes. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 02 Dec 2015 13:40:32 -0800
+
+threadweaver (5.16.0-1) unstable; urgency=medium
+
+  * New upstream release (5.16.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:35 +0100
+
+threadweaver (5.15.0-1) unstable; urgency=medium
+
+  * New upstream release (5.15.0).
+  * Update symbols files from buildds logs (5.14.0-2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:45 +0200
+
 threadweaver (5.15.0-0ubuntu2) xenial; urgency=medium
 
   * Fix autopackagetests by adding allow-stderr to the requirements.
@@ -14,17 +33,44 @@ threadweaver (5.15.0-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 14:01:13 +0100
 
+threadweaver (5.14.0-2) unstable; urgency=medium
+
+  * Move auto test to autopkgtests.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Sep 2015 15:24:42 +0200
+
+threadweaver (5.14.0-1) unstable; urgency=medium
+
+  * New upstream release (5.14.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:49:49 +0200
+
 threadweaver (5.14.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:30:08 +0100
 
+threadweaver (5.13.0-1) unstable; urgency=medium
+
+  * New upstream release (5.13.0).
+  * Drop XS-Testsuite field
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 13 Aug 2015 11:41:22 +0200
+
 threadweaver (5.13.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:37:32 +0200
+
+threadweaver (5.12.0-1) unstable; urgency=medium
+
+  * New upstream release (5.12.0).
+  * Update symbols files for gcc5 compatibility. (Closes: #791739)
+    Thanks to Martin Michlmayr
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:44:02 +0200
 
 threadweaver (5.12.0-0ubuntu1) wily; urgency=medium
 
