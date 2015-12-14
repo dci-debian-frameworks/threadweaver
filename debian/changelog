@@ -1,8 +1,9 @@
-threadweaver (5.16.0-1ubuntu1) UNRELEASED; urgency=medium
+threadweaver (4:5.17.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Debian Merge: No remaining changes. 
+  * New upstream release Xenial
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 02 Dec 2015 13:40:32 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 04:19:30 +0000
 
 threadweaver (5.16.0-1) unstable; urgency=medium
 
