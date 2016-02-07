@@ -42,20 +42,3 @@ Description: ThreadWeaver library to help multithreaded programming.in Qt
  threads within a set of resource limits.
  .
  This package is part of KDE Frameworks 5.
-
-Package: libkf5threadweaver5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5threadweaver5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for Threadweaver
- ThreadWeaver is a helper for multithreaded programming. It uses a job-based
- interface to queue tasks and execute them in an efficient way.  You simply
- divide the workload into jobs, state the dependencies between the jobs and
- ThreadWeaver will work out the most efficient way of dividing the work between
- threads within a set of resource limits.
- .
- This package is part of KDE Frameworks 5.
- .
- This package contains the debug symbols.
