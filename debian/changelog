@@ -1,8 +1,8 @@
-threadweaver (5.19.0-1~) UNRELEASED; urgency=medium
+threadweaver (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 06 Feb 2016 19:03:16 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:34 +0100
 
 threadweaver (5.18.0-1) experimental; urgency=medium
 
