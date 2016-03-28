@@ -1,6 +1,6 @@
-threadweaver (5.20.0-1~10.gbpf1debb) UNRELEASED; urgency=medium
+threadweaver (5.20.0-1~11.gbp946ef5) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f1debb8f83c1985b2b825fcdb45b0f491818a35e **
+  ** SNAPSHOT build @946ef5d975561b7e5dc42f26d5d0b9cd04c222ce **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -15,8 +15,9 @@ threadweaver (5.20.0-1~10.gbpf1debb) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Mon, 28 Mar 2016 16:33:00 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Mon, 28 Mar 2016 20:47:05 +0200
 
 threadweaver (5.19.0-1) experimental; urgency=medium
 
