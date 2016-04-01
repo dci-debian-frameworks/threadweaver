@@ -1,6 +1,6 @@
-threadweaver (5.20.0-1~16.gbp50711e) UNRELEASED; urgency=medium
+threadweaver (5.20.0-1~17.gbp899459) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @50711e40d0051b8c0040a10981ceaeebd9d055fd **
+  ** SNAPSHOT build @899459e983656d267a89fe4463608ccdc1777f29 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -21,8 +21,9 @@ threadweaver (5.20.0-1~16.gbp50711e) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * Update acc test script
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 10:47:25 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:47:14 +0200
 
 threadweaver (5.19.0-1) experimental; urgency=medium
 
