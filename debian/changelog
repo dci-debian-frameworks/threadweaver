@@ -1,5 +1,8 @@
-threadweaver (5.20.0-1~18.gbp2f448b) UNRELEASED; urgency=medium
+threadweaver (5.21.0-1~1.gbp9dc1f3) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @9dc1f319614bf5f1f7e18cfe9b7fddc975328c95 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @2f448bea1617a0a8b21f4da429514272973e798d **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -23,8 +26,14 @@ threadweaver (5.20.0-1~18.gbp2f448b) UNRELEASED; urgency=medium
   * UNRELEASED
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:47:23 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:47:32 +0200
 
 threadweaver (5.19.0-1) experimental; urgency=medium
 
