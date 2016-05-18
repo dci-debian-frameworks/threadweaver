@@ -1,10 +1,9 @@
-threadweaver (5.22.0-1~1.gbp337c48) UNRELEASED; urgency=medium
+threadweaver (5.22.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @337c48c51a9d0925af148bc3a80472035ad5d5aa **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 14:47:32 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 18 May 2016 16:33:39 +0200
 
 threadweaver (5.21.0-1) experimental; urgency=medium
 
