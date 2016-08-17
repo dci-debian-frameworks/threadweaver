@@ -1,11 +1,17 @@
-threadweaver (5.25.0-1~1.gbp47664c) UNRELEASED; urgency=medium
+threadweaver (5.25.0-1~2.gbp8a80a5) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @8a80a565cfba48ac3117ca0f0d40cf0d6ef0f079 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @47664cb0eb7fd642ef1db9348a8ad7883568c866 **
 
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 14:47:13 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:47:16 +0200
 
 threadweaver (5.23.0-1) unstable; urgency=medium
 
