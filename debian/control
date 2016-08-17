@@ -29,6 +29,7 @@ Description: ThreadWeaver library to help multithreaded programming.in Qt
  This package is part of KDE Frameworks 5.
  .
  This package contains the development files.
+Breaks: libkf5kdelibs4support-dev (<< 5.25)
 
 Package: libkf5threadweaver5
 Architecture: any
@@ -42,3 +43,4 @@ Description: ThreadWeaver library to help multithreaded programming.in Qt
  threads within a set of resource limits.
  .
  This package is part of KDE Frameworks 5.
+Breaks: libkf5runner5 (<< 5.25)
