@@ -4,6 +4,16 @@ threadweaver (5.26.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 12 Sep 2016 08:35:58 +0000
 
+threadweaver (5.25.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:18:59 +0200
+
 threadweaver (5.25.0-0neon) xenial; urgency=medium
 
   * New release
@@ -16,17 +26,46 @@ threadweaver (5.24.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 11 Jul 2016 07:43:19 +0000
 
+threadweaver (5.23.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 08:35:09 +0200
+
 threadweaver (5.23.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Mon, 13 Jun 2016 09:40:24 +0000
 
+threadweaver (5.22.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 18 May 2016 16:33:39 +0200
+
 threadweaver (5.22.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Tue, 17 May 2016 07:37:21 +0000
+
+threadweaver (5.21.0-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update acc test script
+  * uscan no longer supports more than one main upstream tarball being listed
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 18:40:59 +0200
 
 threadweaver (5.21.0-0neon) xenial; urgency=medium
 

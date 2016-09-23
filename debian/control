@@ -5,10 +5,10 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
+               extra-cmake-modules (>= 5.25.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4)
-Standards-Version: 3.9.6
+               qtbase5-dev (>= 5.5.0~)
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/threadweaver
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/threadweaver.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/threadweaver.git
@@ -17,7 +17,7 @@ Package: libkf5threadweaver-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5threadweaver5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.4),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
 Description: ThreadWeaver library to help multithreaded programming.in Qt
  ThreadWeaver is a helper for multithreaded programming. It uses a job-based
@@ -29,6 +29,7 @@ Description: ThreadWeaver library to help multithreaded programming.in Qt
  This package is part of KDE Frameworks 5.
  .
  This package contains the development files.
+Breaks: libkf5kdelibs4support-dev (<< 5.25)
 
 Package: libkf5threadweaver5
 Architecture: any
@@ -42,3 +43,4 @@ Description: ThreadWeaver library to help multithreaded programming.in Qt
  threads within a set of resource limits.
  .
  This package is part of KDE Frameworks 5.
+Breaks: libkf5runner5 (<< 5.25)
