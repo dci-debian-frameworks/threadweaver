@@ -1,3 +1,11 @@
+threadweaver (5.28.0-1~1.gbp5d164e) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @5d164edc5a95257cc18c49fa4cecc160a2d21c7b **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 14:47:27 +0100
+
 threadweaver (5.27.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
