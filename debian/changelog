@@ -1,3 +1,9 @@
+threadweaver (5.29.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:10:20 +0000
+
 threadweaver (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
