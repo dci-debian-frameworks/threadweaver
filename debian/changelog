@@ -1,3 +1,9 @@
+threadweaver (5.34.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 14 May 2017 17:43:21 +0000
+
 threadweaver (5.33.0-0neon) xenial; urgency=medium
 
   * New release
