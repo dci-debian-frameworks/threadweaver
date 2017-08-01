@@ -23,7 +23,9 @@ Architecture: any
 Depends: libkf5threadweaver5 (= ${binary:Version}),
          qtbase5-dev (>= 5.6.0~),
          ${misc:Depends}
-Description: ThreadWeaver library to help multithreaded programming.in Qt
+Breaks: libkf5kdelibs4support-dev (<< 5.36)
+Recommends: libkf5threadweaver-doc (= ${source:Version})
+Description: ThreadWeaver library to help multithreaded programming in Qt
  ThreadWeaver is a helper for multithreaded programming. It uses a job-based
  interface to queue tasks and execute them in an efficient way.  You simply
  divide the workload into jobs, state the dependencies between the jobs and
@@ -33,13 +35,13 @@ Description: ThreadWeaver library to help multithreaded programming.in Qt
  This package is part of KDE Frameworks 5.
  .
  This package contains the development files.
-Breaks: libkf5kdelibs4support-dev (<< 5.36)
 
 Package: libkf5threadweaver5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: ThreadWeaver library to help multithreaded programming.in Qt
+Breaks: libkf5runner5 (<< 5.36)
+Description: ThreadWeaver library to help multithreaded programming in Qt
  ThreadWeaver is a helper for multithreaded programming. It uses a job-based
  interface to queue tasks and execute them in an efficient way.  You simply
  divide the workload into jobs, state the dependencies between the jobs and
@@ -47,4 +49,18 @@ Description: ThreadWeaver library to help multithreaded programming.in Qt
  threads within a set of resource limits.
  .
  This package is part of KDE Frameworks 5.
-Breaks: libkf5runner5 (<< 5.36)
+
+Package: libkf5threadweaver-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: ThreadWeaver library to help multithreaded programming in Qt
+ ThreadWeaver is a helper for multithreaded programming. It uses a job-based
+ interface to queue tasks and execute them in an efficient way.  You simply
+ divide the workload into jobs, state the dependencies between the jobs and
+ ThreadWeaver will work out the most efficient way of dividing the work between
+ threads within a set of resource limits.
+ .
+ This package is part of KDE Frameworks 5.
+ .
+ This package contains the qch documentation files.
