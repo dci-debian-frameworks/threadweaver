@@ -11,7 +11,7 @@ Build-Depends: cmake (>= 3.0~),
                libqt5sql5-sqlite,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
-               qttools5-dev-tools
+               qttools5-dev-tools,
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/frameworks/threadweaver
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/threadweaver.git
@@ -22,7 +22,7 @@ Section: libdevel
 Architecture: any
 Depends: libkf5threadweaver5 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends}
+         ${misc:Depends},
 Breaks: libkf5kdelibs4support-dev (<< 5.37)
 Recommends: libkf5threadweaver-doc (= ${source:Version})
 Description: ThreadWeaver library to help multithreaded programming in Qt
@@ -35,20 +35,6 @@ Description: ThreadWeaver library to help multithreaded programming in Qt
  This package is part of KDE Frameworks 5.
  .
  This package contains the development files.
-
-Package: libkf5threadweaver5
-Architecture: any
-Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5runner5 (<< 5.37)
-Description: ThreadWeaver library to help multithreaded programming in Qt
- ThreadWeaver is a helper for multithreaded programming. It uses a job-based
- interface to queue tasks and execute them in an efficient way.  You simply
- divide the workload into jobs, state the dependencies between the jobs and
- ThreadWeaver will work out the most efficient way of dividing the work between
- threads within a set of resource limits.
- .
- This package is part of KDE Frameworks 5.
 
 Package: libkf5threadweaver-doc
 Architecture: all
@@ -64,3 +50,17 @@ Description: ThreadWeaver library to help multithreaded programming in Qt
  This package is part of KDE Frameworks 5.
  .
  This package contains the qch documentation files.
+
+Package: libkf5threadweaver5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5runner5 (<< 5.37)
+Description: ThreadWeaver library to help multithreaded programming in Qt
+ ThreadWeaver is a helper for multithreaded programming. It uses a job-based
+ interface to queue tasks and execute them in an efficient way.  You simply
+ divide the workload into jobs, state the dependencies between the jobs and
+ ThreadWeaver will work out the most efficient way of dividing the work between
+ threads within a set of resource limits.
+ .
+ This package is part of KDE Frameworks 5.
