@@ -1,4 +1,4 @@
-kwidgetsaddons (5.39.0-0neon) xenial; urgency=medium
+threadweaver (5.39.0-0neon) xenial; urgency=medium
 
   * New release
 
@@ -190,7 +190,7 @@ threadweaver (5.18.0-1) experimental; urgency=medium
 threadweaver (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
-  * Debian Merge: No remaining changes. 
+  * Debian Merge: No remaining changes.
   * New upstream release Xenial
 
   [ Philip Muškovac ]
@@ -275,7 +275,7 @@ threadweaver (5.12.0-0ubuntu1) wily; urgency=medium
   * Update symbols files; mark missing symbols for GCC 5 as optional.
 
   [ Scarlett Clark ]
-  * Vivid backport. 
+  * Vivid backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 16:13:03 +0200
 
