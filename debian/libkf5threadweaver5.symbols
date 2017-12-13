@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.37.0 amd64
+# SymbolsHelper-Confirmed: 5.41.0 amd64
 libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZN12ThreadWeaver10Collection1dEv@Base 4.98.0
  _ZN12ThreadWeaver10Collection22aboutToBeQueued_lockedEPNS_8QueueAPIE@Base 4.96.0
@@ -361,7 +361,6 @@ libKF5ThreadWeaver.so.5 libkf5threadweaver5 #MINVER#
  _ZTVN12ThreadWeaver8SequenceE@Base 4.96.0
  _ZTVN12ThreadWeaver9ExceptionE@Base 4.96.0
  _ZTVN12ThreadWeaver9JobFailedE@Base 4.96.0
- _ZZN12ThreadWeaver6Thread7Private6makeIdEvE4s_id@Base 4.96.0
  (c++)"non-virtual thunk to ThreadWeaver::QObjectDecorator::defaultBegin(QSharedPointer<ThreadWeaver::JobInterface> const&, ThreadWeaver::Thread*)@Base" 4.98.0
  (c++)"non-virtual thunk to ThreadWeaver::QObjectDecorator::defaultEnd(QSharedPointer<ThreadWeaver::JobInterface> const&, ThreadWeaver::Thread*)@Base" 4.98.0
  (c++)"non-virtual thunk to ThreadWeaver::Queue::currentNumberOfThreads() const@Base" 4.96.0
