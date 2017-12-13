@@ -1,6 +1,5 @@
 threadweaver (5.41.0-1~) UNRELEASED; urgency=medium
 
-  * New upstream release (5.38.0).
   * Update build-deps and deps with the info from cmake
   * New upstream release (5.41.0).
 
