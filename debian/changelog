@@ -1,14 +1,16 @@
-threadweaver (5.41.0-1~1) UNRELEASED; urgency=medium
+threadweaver (5.41.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * Update build-deps and deps with the info from cmake
   * New upstream release (5.41.0).
   * Update symbols files
+  * Bump group breaks (5.41)
+  * Release to experimental
 
   [ Helmut Grohne ]
   * Fix FTCBFS: Annotate libqt5sql5-sqlite with :native. (Closes: 883371)
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Dec 2017 10:58:22 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:43:29 -0300
 
 threadweaver (5.37.0-2) sid; urgency=medium
 
